@@ -20,6 +20,20 @@
     <link href="css/style.css" rel="stylesheet">
 	<link href="color/default.css" rel="stylesheet">
 
+  <!-- admin área-->
+  <!-- MetisMenu CSS -->
+  <link href="css/metisMenu.min.css" rel="stylesheet">
+
+  <!-- Timeline CSS -->
+  <link href="css/timeline.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/sb-admin-2.css" rel="stylesheet">
+
+  <!-- Morris Charts CSS -->
+  <link href="css/morris.css" rel="stylesheet">
+
+
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 	<!-- Preloader -->
