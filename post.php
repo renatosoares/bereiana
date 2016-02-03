@@ -1,7 +1,4 @@
-<?php
-  require 'head.php';
-  require 'header.php';
- ?>
+<?php  require 'header.php'; ?>
  <!-- Main jumbotron for a primary marketing message or call to action -->
 
    <header id="first">
@@ -10,7 +7,7 @@
    </header>
 
 
-
+<br>
 
      <div class="container">
 

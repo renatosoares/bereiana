@@ -1,7 +1,4 @@
-<?php
-  require 'head.php';
-  require 'header.php';
- ?>
+<?php require 'header.php'; ?>
 
  <!-- Section: intro -->
    <section id="intro" class="intro">
@@ -37,11 +34,11 @@
  <div class="container">
    <div class="row">
 
-
+     <?php for ($i=0; $i < 6; $i++):  ?>
      <div class="col-sm-12 col-md-6" >
        <div class="row">
          <div class="col-md-7">
-           <div class="ih-item square colored effect6 from_left_and_right"><a href="#">
+           <div class="ih-item square colored effect6 from_left_and_right"><a href="post.php">
              <div class="img"><img src="http://placehold.it/310x210" alt="Título da postagem"></div>
              <div class="info">
                <h3>Heading here</h3>
@@ -59,80 +56,12 @@
        </div> <!-- /row -->
        <hr>
      </div> <!-- /col6 -->
+   <?php endfor; ?>
 
-<!-- ******************************************************************************************* -->
 
-     <div class="col-sm-12 col-md-6">
-       <div class="row">
-         <div class="col-md-7">
-           <div class="ih-item square colored effect6 from_left_and_right"><a href="#">
-             <div class="img"><img src="http://placehold.it/310x210" alt="Título da postagem"></div>
-             <div class="info">
-               <h3>Heading here</h3>
-               <p>Description goes here</p>
-             </div></a>
-           </div>
-         </div>
-
-         <div class="col-md-5">
-           <div class="caption">
-             <h3>Título da postagem</h3>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in nibh risus. Proin ut leo sed neque molestie blandit vel sed ipsum. Vestibulum a sed.</p>
-           </div>
-         </div>
-       </div> <!-- /row -->
-       <hr>
-     </div> <!-- /col6 -->
-  <!-- ******************************************************************************************* -->
-
-  <!-- ******************************************************************************************* -->
-
-       <div class="col-sm-12 col-md-6">
-         <div class="row">
-           <div class="col-md-7">
-             <div class="ih-item square colored effect6 from_left_and_right"><a href="#">
-               <div class="img"><img src="http://placehold.it/310x210" alt="Título da postagem"></div>
-               <div class="info">
-                 <h3>Heading here</h3>
-                 <p>Description goes here</p>
-               </div></a>
-             </div>
-           </div>
-
-           <div class="col-md-5">
-             <div class="caption">
-               <h3>Título da postagem</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in nibh risus. Proin ut leo sed neque molestie blandit vel sed ipsum. Vestibulum a sed.</p>
-             </div>
-           </div>
-         </div> <!-- /row -->
-           <hr>
-       </div> <!-- /col6 -->
-    <!-- ******************************************************************************************* -->
     <!-- ******************************************************************************************* -->
 
-         <div class="col-sm-12 col-md-6">
-           <div class="row">
-             <div class="col-md-7">
-               <div class="ih-item square colored effect6 from_left_and_right"><a href="#">
-                 <div class="img"><img src="http://placehold.it/310x210" alt="Título da postagem"></div>
-                 <div class="info">
-                   <h3>Heading here</h3>
-                   <p>Description goes here</p>
-                 </div></a>
-               </div>
-             </div>
 
-             <div class="col-md-5">
-               <div class="caption">
-                 <h3>Título da postagem</h3>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in nibh risus. Proin ut leo sed neque molestie blandit vel sed ipsum. Vestibulum a sed.</p>
-               </div>
-             </div>
-           </div> <!-- /row -->
-             <hr>
-         </div> <!-- /col6 -->
-      <!-- ******************************************************************************************* -->
 
    </div> <!-- row -->
 
