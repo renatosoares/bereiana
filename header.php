@@ -22,16 +22,11 @@
 
   <!-- admin área-->
   <!-- MetisMenu CSS -->
-  <link href="css/metisMenu.min.css" rel="stylesheet">
-
-  <!-- Timeline CSS -->
-  <link href="css/timeline.css" rel="stylesheet">
+  <!-- <link href="css/metisMenu.min.css" rel="stylesheet"> -->
 
   <!-- Custom CSS -->
-  <link href="css/sb-admin-2.css" rel="stylesheet">
+  <!-- <link href="css/sb-admin-2.css" rel="stylesheet"> -->
 
-  <!-- Morris Charts CSS -->
-  <link href="css/morris.css" rel="stylesheet">
 
 
 </head>
@@ -57,7 +52,7 @@
       </div>
         <form class="navbar-form navbar-left" role="search">
           <div class="input-group ">
-            <input type="text" class="form-control" placeholder="Search" style="width: 300px;">
+            <input type="text" class="form-control" placeholder="Search" style="width: 200px;">
             <span class="input-group-btn">
               <button class="btn btn-default" type="button">Go!</button>
             </span>
